@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true /* Do not emit outputs. */,
+    "incremental": true /* Enable incremental /compilation */,
+    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+  },
+  "exclude": ["node_modules"]
+}
